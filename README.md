@@ -7,24 +7,18 @@
 ## 專案目錄結構
 
 ```plaintext
-Python_Pyside6_PLC/
-├── env/                          # 虛擬環境
+Python_DeltaPLC_Communication/
 ├── modules/                      # 自訂義模組
 │   ├── delta_plc_modbus.py       # Modbus 通信模組
 ├── plc/                          # PLC 程式碼
 │   ├── Practice_V1_20241226.dvp  # PLC 步階圖程式碼
-├── resource/                     # UI 資源文件夾
-│   ├── ICO/
-│   ├── ICONS/
-│   ├── IMAGES/
 ├── tests/                        # 單元測試
 │   ├── ModbusASCII_Multi_Test.py
 │   ├── ModbusASCII_Single_Test.py
 ├── main.py                       # 主程序入口
-├── main_window.ui                # 主界面設計文件
-├── window.py                     # UI 主視窗邏輯
-├── resource_rc.py                # 編譯後的資源文件
-└── ui_to_py.bat                  # UI 文件轉換腳本
+├── requirements.txt              # 需要的庫
+├── main_window.py                # 主界面設計文件
+└── resource_rc.py                # 編譯後的資源文件
 ```
 
 ---
