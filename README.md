@@ -19,6 +19,10 @@ Python_DeltaPLC_Communication/
 ├── requirements.txt              # 需要的庫
 ├── main_window.py                # 主界面設計文件
 └── resource_rc.py                # 編譯後的資源文件
+
+# 其他檔案
+resource.qrc
+main_window.ui
 ```
 
 ---
